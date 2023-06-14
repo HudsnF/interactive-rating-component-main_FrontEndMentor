@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1.5rem;
+    min-height: 100vh;
+}
+
+.hidden {
+    display: none;
+}
+
+.main_content,
+.thank_content {
+    background-color: hsl(213, 19%, 18%);
+    padding: 2rem;
+    border-radius: 2rem;
+    max-width: 400px;
+}
+
+p {
+    color: hsl(216, 12%, 54%);
+    line-height: 1.5em;
+}
+
+.main_content img {
+    background-color: hsl(213, 18%, 22%);
+    padding: 12px;
+    border-radius: 50%;
+}
+
+h1,
+h2 {
+    color: white;
+    margin: 2rem 0 .8rem 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.main_content ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main_content ul li button {
+    background-color: hsl(213, 18%, 22%);
+    color: hsl(216, 12%, 54%);
+    font-size: 15px;
+    font-weight: 700;
+    margin: 2rem 0;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.main_content ul li button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.main_content ul li button:focus {
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+
+.btn_submit {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    font-weight: 700;
+    padding: 1rem;
+    width: 100%;
+    border: none;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn_submit:hover {
+    background-color: white;
+    color: hsla(25, 97%, 53%, 0.8);
+}
+
+.thank_content {
+    text-align: center;
+}
+
+.thank_content img {
+    display: block;
+    margin: 0 auto 2rem;
+}
+
+.thank_content p:nth-child(2) {
+    background-color: hsl(213, 18%, 22%);
+    color: hsla(25, 97%, 53%, 0.8);
+    padding: 7px 15px 2px;
+    border-radius: 2rem;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.thank_content p:nth-child(4) {
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+.attribution {
+    background-color: hsla(25, 97%, 53%, 0.432);
+    color: hsl(216, 12%, 54%);
+    font-size: 12px;
+    text-align: center;
+    margin: 10px;
+    padding: 4px;
+    border-radius: 2rem;
+
+}
+
+.attribution a {
+    color: hsl(0, 0%, 0%);
+}
