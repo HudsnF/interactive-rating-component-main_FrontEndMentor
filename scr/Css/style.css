@@ -59,7 +59,7 @@ ul {
 }
 
 .main_content ul li button {
-    -webkit-tap-highlight-color: transparent;
+   -webkit-tap-highlight-color: transparent;
     background-color: hsl(213, 18%, 22%);
     color: hsl(216, 12%, 54%);
     font-size: 15px;
